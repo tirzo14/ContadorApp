@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tirzorivas.android.contadorapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conteo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <EditText
+        android:id="@+id/campoConteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:text="0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/botonContar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contar"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <Button
+            android:id="@+id/botonReiniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="144dp" />
+    </LinearLayout>
+</LinearLayout>
